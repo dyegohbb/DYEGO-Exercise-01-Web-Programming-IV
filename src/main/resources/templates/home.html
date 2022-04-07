@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+	<link rel="icon" type="image/x-icon"th:href="@{/images/favicon.ico}">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="starter">
+        <h1>↓</h1>
+        <h2>
+            <span th:text="${text}"></span>
+        </h2>
+    </div>
+    <table class="chooselang-tab">
+   		<tr>
+   			<td><a href="/click?language=PORTUGUESE"><img th:src="@{/images/portuguese.png}" title="Portuguese"></a></td>
+   			<td><a href="/click?language=FRENCH"><img th:src="@{/images/french.png}" title="French"></a></td>
+   			<td><a href="/click?language=ENGLISH"><img th:src="@{/images/english.png}" title="English"></a></td>
+   		</tr>
+   		<tr>
+   			<td><a href="/click?language=GERMAN"><img th:src="@{/images/german.png}" title="German"></a></td>
+   			<td><a href="/click?language=SPANISH"><img th:src="@{/images/spanish.png}" title="Spanish"></a></td>
+   			<td><a href="/click?language=ITALIAN"><img th:src="@{/images/italian.png}" title="Italian"></a></td>
+   		</tr>
+   		<tr>
+   			<td></td>
+   			<td><a href="/click?language=FINNISH"><img th:src="@{/images/finnish.png}" title="Finnish"></a></td>
+   		</tr>
+   	</table>
+	<a href="/"> ← Back </a>
+</body>
+</html>
