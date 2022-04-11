@@ -1,2 +1,4 @@
-# DYEGO-Exercise-01-Web-Programming-IV
-Repository for the first exercise of the discipline Web Programming IV with the teacher Francisco Jr.
+***How to install/initiate:*** 
+
+- Import the maven project in spring tool suit
+- Run the application
